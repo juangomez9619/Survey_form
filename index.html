@@ -8,18 +8,41 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="fondo">
-      <h1 id="title">Título</h1>
+    <main class="fondo">
+      <h1 class="title">Encuesta Fenomenal</h1>
+      <p id="description">La mejor encuesta jamás vista</p>
 
-      <h1 id="title">Título</h1>
-      <h1 id="title">Título</h1>
-      <h1 id="title">Título</h1>
-      <h1 id="title">Título</h1>
-      <h1 id="title">Título</h1>
-      <h1 id="title">Título</h1>
-      <h1 id="title">Título</h1>
-      <h1 id="title">Título</h1>
-      <h1 id="title">Título</h1>
-    </div>
+      <form action="#" id="survey-form">
+        <label for="name" id="name-label">Nombre</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Juan David Gómez B"
+          required
+        />
+
+        <label for="email" id="email-label">Correo electrónico</label>
+        <input type="email" id="email" placeholder="abc@dfg.com" required />
+
+        <label for="number" id="number-label">Años de experiencia</label>
+        <input
+          type="number"
+          id="number"
+          placeholder="5"
+          required
+          min="1"
+          max="30"
+        />
+
+        <label for="color_favorito">Color favorito</label>
+        <select id="dropdown">
+          <option value="Amarillo">Amarillo</option>
+          <option value="Azul">Azul</option>
+          <option value="Rojo">Rojo</option>
+          <option value="Verde">Verde</option>
+          <option value="Naranja">Naranja</option>
+        </select>
+      </form>
+    </main>
   </body>
 </html>
