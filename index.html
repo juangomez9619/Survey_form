@@ -9,7 +9,7 @@
   </head>
   <body>
     <main class="fondo">
-      <h1 class="title">Encuesta Fenomenal</h1>
+      <h1 id="title">Encuesta Fenomenal</h1>
       <p id="description">La mejor encuesta jamás vista</p>
 
       <form action="#" id="survey-form">
@@ -42,6 +42,48 @@
           <option value="Verde">Verde</option>
           <option value="Naranja">Naranja</option>
         </select>
+
+        <label>Género</label>
+
+        <label for="hombre">
+          <input
+            id="hombre"
+            type="radio"
+            name="genero"
+            checked
+            value="H"
+          />Hombre
+        </label>
+
+        <label for="mujer">
+          <input id="mujer" type="radio" name="genero" value="M" />Mujer
+        </label>
+
+        <label>Deportes favoritos</label>
+        <label for="tenis">
+          <input id="tenis" type="checkbox" name="deporte" value="tenis" />Tenis
+        </label>
+        <label for="futbol">
+          <input
+            id="futbol"
+            type="checkbox"
+            name="deportes"
+            value="futbol"
+          />Futbol
+        </label>
+        <label for="beisbol">
+          <input id="beisbol" type="checkbox" name="deportes" value="beisbol" />
+          Beisbol
+        </label>
+        <label for="informacion_adicional">Información adicional</label>
+        <textarea
+          id="informacion_adicional"
+          placeholder="La info va aquí"
+          rows="5"
+        ></textarea>
+        <div class="div_button">
+          <button type="submit" class="btn-submit" id="submit">Enviar</button>
+        </div>
       </form>
     </main>
   </body>

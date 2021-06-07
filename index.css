@@ -49,8 +49,6 @@ main {
       rgba(181, 181, 181, 0.05) 100%
     ),
     linear-gradient(92deg, hsl(214, 0%, 11%), hsl(214, 0%, 11%));
-
-  height: 100vh;
 }
 
 h1,
@@ -59,13 +57,13 @@ p {
   text-align: center;
 }
 h1 {
-  color: rgba(170, 20, 20, 1);
+  color: rgba(220, 96, 96, 1);
   padding-top: 5%;
 }
 
 p {
   color: rgba(220, 96, 96, 1);
-  padding-bottom: 2.5%;
+  padding-bottom: 2%;
 }
 .encuesta {
   background-color: #fff;
@@ -82,5 +80,56 @@ form {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  padding: 2.5%;
+  padding: 3%;
+}
+
+label {
+  color: rgba(220, 96, 96, 1);
+  padding: 0.5% 0 0.5% 2%;
+}
+
+form input {
+  background: transparent;
+  color: rgba(220, 96, 96, 1);
+  border-color: rgba(220, 96, 96, 1);
+  border-style: solid;
+  padding: 1% 1% 1% 4%;
+}
+
+textarea {
+  background: transparent;
+  color: rgba(220, 96, 96, 1);
+  border-color: rgba(220, 96, 96, 1);
+  border-style: solid;
+  padding: 1% 1% 1% 4%;
+}
+
+.btn-submit {
+  margin-top: 3%;
+  width: 50%;
+  height: 50px;
+  border-radius: 50px;
+  background: transparent;
+  color: rgba(220, 96, 96, 1);
+  border-color: rgba(220, 96, 96, 1);
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: rgba(220, 96, 96, 1);
+  color: #000;
+  border-style: solid;
+  border-color: #000;
+}
+
+select {
+  padding: 1% 1% 1% 4%;
+  background: transparent;
+  border-color: rgba(220, 96, 96, 1);
+  color: rgba(220, 96, 96, 1);
+}
+
+.div_button {
+  display: flex;
+  justify-content: center;
 }

@@ -32,6 +32,4 @@ La solución debe satisfacer las siguientes historias de usuario:
 
 - **Historia de Usuario #15:** Dentro del elemento form, me es presentado un textarea final para hacer comentarios adicionales.
 
-- **Historia de Usuario #16:**
-
-Dentro del elemento form, me es presentado un botón con id="submit" para enviar todas mis entradas.
+- **Historia de Usuario #16:** Dentro del elemento form, me es presentado un botón con id="submit" para enviar todas mis entradas.
